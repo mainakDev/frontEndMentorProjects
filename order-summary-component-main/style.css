@@ -1,0 +1,72 @@
+*{
+    font-family: Red Hat Display;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.card{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan-button{
+    width: 90%;
+    height: 20%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: small;
+}
+
+.change-button{
+    margin-left: 20px;
+    background: none;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 5px;
+    font-size: small;
+}
+
+.proceed-button,.cancel-button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.proceed-button{
+    height: 20px;
+    width: 80%;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5px;
+    color: white;
+}
+
+.cancel-button{
+    color: hsl(224, 23%, 55%);
+}
