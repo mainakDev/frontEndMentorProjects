@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+}
+
+.box1{
+    grid-area: big-box;
+}
+
+
+.inner-box1,.inner-box2{
+    /* grid-area: image-box; */
+    height: 50%;
+    padding-top: 5rem;
+
+}
+
+.box2{
+    grid-area: big-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.box3{
+    background-color: black;
+}
+
+.box2>div{
+    /* background-color: aqua; */
+}
+
+
+.box4,.box5,.box6{
+    /* background-color: aqua; */
+    height: 20vh;
+    width: 1fr; 
+    display: flex;
+}
+
+.container{
+    margin: 0rem 10rem 0rem 10rem;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas: "big-box big-box";
+
+}
+
+.container > div{
+    margin: 20px;
+    /* background-color: blueviolet; */
+}
+
+.box1,.box2,.box3{
+    height: 60vh;
+    width: 1fr;
+}
+
+.box3 > div{
+    height: 33%;
+    /* background-color: black; */
+    margin: 0px 20px 0px 20px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.inner-box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: inherit;
+}
+
+section{
+    margin: 2rem;
+}
+
+h2{
+    font-size: 3rem;
+    color: rgb(235, 175, 83);
+    margin-bottom: 1.5rem;
+}
+
+h4{
+    font-size: 2rem
+}
+
+h6{
+    font-size: 1.5rem
+}
+
+p{
+    color: grey;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:rgb(241, 93, 81);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.black-box-heading{
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+.black-box-link:hover{
+    color: rgb(235, 175, 83);
+}
